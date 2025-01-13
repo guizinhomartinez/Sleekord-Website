@@ -16,7 +16,7 @@ function FirstPost() {
     const [markdownContent, setMarkdownContent] = useState('');
 
     useEffect(() => {
-        fetch('src/pages/posts/markdown/firstPost.md').then(response => response.text()).then(setMarkdownContent);
+        fetch('/markdown/firstPost.md').then(response => response.text()).then(setMarkdownContent);
     }, []);
 
     return (
