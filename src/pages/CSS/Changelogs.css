@@ -1,0 +1,63 @@
+@media (prefers-color-scheme: light) {
+    #boxes {
+        border: 1px solid rgba(31, 31, 31, 0.5);
+        background-color: rgb(238, 238, 238);
+        max-width: 45rem;
+        color: rgba(31, 31, 31, 0.8);
+    }
+
+    .box-2:hover {
+        background-color: rgb(255, 255, 255) !important;
+        color: #1f1f1f !important;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    #boxes {
+        background-color: rgb(53, 53, 53);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .box-2:hover {
+        background-color: rgb(238, 238, 238) !important;
+        color: #1f1f1f !important;
+    }
+}
+
+#boxes {
+    user-select: none;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+    height: 100%
+}
+
+#boxes * {
+    align-content: center;
+}
+
+.box-1:hover {
+    border-radius: 1.5em !important;
+}
+
+/* #latest-changelogs-post {
+    position: relative;
+}
+
+#latest-changelogs::after, #latest-changelogs::before {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#latest-changelogs::after {
+    background: linear-gradient(90deg, var(--bg-color) 0, hsla(0,0%,100%,0) 50%, var(--bg-color)),
+                linear-gradient(180deg,var(--bg-color) 0, hsla(0,0%,100%,0) 50%, var(--bg-color));
+}
+
+#latest-changelogs::before {
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+} */
