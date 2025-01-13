@@ -16,7 +16,11 @@ function SecondPost() {
     const [markdownContent, setMarkdownContent] = useState('');
 
     useEffect(() => {
-        fetch('/markdown/secondPost.md').then(response => response.text()).then(setMarkdownContent);
+      try {
+          fetch('/secondPost.md').then(response => response.text()).then(setMarkdownContent);
+      } catch (e) {
+          console.warn(e);
+      }
     }, []);
 
     return (

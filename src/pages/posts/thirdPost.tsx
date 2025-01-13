@@ -5,7 +5,11 @@ const ThirdPost = () => {
     const [markdownContent, setMarkdownContent] = useState('');
 
     useEffect(() => {
-        fetch('/markdown/thirdPost.md').then(response => response.text()).then(setMarkdownContent);
+        try {
+            fetch('/thirdPost.md').then(response => response.text()).then(setMarkdownContent);
+        } catch (e) {
+            console.warn(e);
+        }
     }, []);
 
     return (
