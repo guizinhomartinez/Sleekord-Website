@@ -18,10 +18,8 @@ function SubpageInstallation() {
     return (
         <section id="installation" className="flex flex-col gap-2 p-10 -mx-10 my-10 rounded-3xl shadow-xl">
             <div>
-                <div className="mb-5">
-                    <h1 className="text-5xl font-bold text-center">Installation</h1>
-                    <p className="text-xl font-medium text-center">Liked the theme so far? How about you try it yourself!</p>
-                </div>
+                <h1 className="text-5xl font-bold text-center">Installation</h1>
+                <p className="text-xl font-medium text-center mb-6">Liked the theme so far? How about you try it yourself!</p>
                 <div>
                     <div>
                         <p className="text-xl font-medium text-center mb-5">
