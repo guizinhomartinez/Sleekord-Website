@@ -1,8 +1,6 @@
-import { Button } from "@/components/ui/button";
-import { ChevronRight } from "lucide-react";
 import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
-import Overlay from '@/components/overlay'
+import Overlay from '@/components/Overlay'
 
 function SecondPost() {
   const [markdownContent, setMarkdownContent] = useState('');
