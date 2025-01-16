@@ -4,6 +4,8 @@ The last few days have been rough with working on something secret, but now I ca
 
 Hello everyone! This is the first changelog of this new website I have created. This one will not be focused on any changes of the theme (as I have taken a little break) but will instead talk about this website and the process of making it.
 
+---
+
 ## Why did I start this project?
 
 Let me just start by saying that I know basically nothing web-related. The only thing I knew prior to starting this project was CSS (obviously) and some stuff about HTML5. Apart from that, everything was new.
@@ -16,6 +18,8 @@ I started by learning about Tailwind, because from creating the theme I learned 
 
 Just the first page was so difficult that I took 2 (almost) full days to complete. The hardest part was honestly not giving up because it's so frustrating to have something so apparently easy in your hands and still not be able to accomplish what you want/have to. I guess this experience gave me some philosophic knowledge. To everyone reading this (no one), just remember that the most important part of everything that happens with you is the learning with that.
 
+---
+
 ## After the first page: success
 
 Anyway, after about 2 days of building the first website, I had learned a lot. I had gotten the basics of JS (nothing that much) understood and now I actually prefer to do some stuff in JS instead of another more normal way.
@@ -27,6 +31,8 @@ Now this is the first changelog that I'm using this page instead of using GitHub
 What is the license this website uses? Can I help to improve it?
 
 I want to just say right now that everything surrounding this theme WILL be open source and under the GPL-3 license. Heck, if I find a more open and free (as in libre), I might change to that. I love open source projects and I love the freedom and the community surrounding it. If someone is reading this and you find a bug anywhere, you can create an Issue in the GitHub Repo (although I might create a system here since it would be better, because everything would be in the same space. Not sure though).
+
+---
 
 ## Problems that I'm trying to fix
 

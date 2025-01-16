@@ -4,5 +4,10 @@
       "source": "/(.*)",
       "destination": "/index.html"
     }
+  ],
+  "ignore": [
+    "**/node_modules/**",
+    "**/.git/**",
+    "**/dist/**"
   ]
 }

@@ -1,23 +1,9 @@
-import ReactMarkdown from 'react-markdown';
-import { useEffect, useState } from 'react';
+import postStyle from "@/components/postStyle";
 
-const ThirdPost = () => {
-    const [markdownContent, setMarkdownContent] = useState('');
-
-    useEffect(() => {
-        try {
-            fetch('/thirdPost.md').then(response => response.text()).then(setMarkdownContent);
-        } catch (e) {
-            console.warn(e);
-        }
-    }, []);
-
-    return (
-        <div className='antialiased max-w-3xl mt-20 mx-auto whitespace-pre-wrap' style={{ fontFamily: "Inter" }}>
-            <ReactMarkdown>{markdownContent}</ReactMarkdown>
-            <div className='p-3'></div>
-        </div>
-    );
-};
+function ThirdPost() {
+  return (
+    postStyle('thirdPost')
+  )
+}
 
 export default ThirdPost;
