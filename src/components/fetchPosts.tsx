@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 function FetchPosts(file:string) {
     const [markdownContent, setMarkdownContent] = useState('');
-    let fileFetcher:string = '/markdown/' + file + '.md';
+    let fileFetcher:string = '/' + file + '.md';
 
     useEffect(() => { fetch(fileFetcher).then(response => response.text()).then(setMarkdownContent); });
 
