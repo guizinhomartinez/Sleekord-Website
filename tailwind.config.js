@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-    // darkMode: ["class"],
+    darkMode: ["class"],
     content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -43,9 +43,9 @@ export default {
   				DEFAULT: 'hsl(var(--destructive))',
   				foreground: 'hsl(var(--destructive-foreground))'
   			},
-  			border: 'hsl(var(--border))',
-  			input: 'hsl(var(--input))',
-  			ring: 'hsl(var(--ring))',
+  			border: 'transparent',
+  			input: 'transparent',
+  			ring: 'transparent',
   			chart: {
   				'1': 'hsl(var(--chart-1))',
   				'2': 'hsl(var(--chart-2))',

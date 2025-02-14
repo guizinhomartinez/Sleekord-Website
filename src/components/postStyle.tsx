@@ -16,8 +16,8 @@ function PostStyle(file: string = '') {
                         <ReactMarkdown>
                             {postContent}
                         </ReactMarkdown>
-                        : <div className='flex justify-center items-center h-screen'>
-                            <span>Loading...<br /></span>
+                        : <div className='grid mt-10 dark:bg-neutral-600 bg-slate-300 rounded-lg px-12 py-6 shadow-md dark:border-neutral-800 border-neurtal-300 border-2 border-solid'>
+                            <span>Loading...</span>
                             <span className="loader mt-10"></span>
                         </div>}
                 </div>

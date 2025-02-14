@@ -8,7 +8,7 @@ import SubpageHome from "./subpages/home/subpage-home";
 
 function Home() {
   return (
-    <div className="flex flex-col gap-2 h-screen p-10 relative" id="home">
+    <div className="flex flex-col gap-2 h-screen p-10" id="home">
       <SubpageHome />
       <SubpageChanges />
       <SubpageFuture />
